@@ -1,0 +1,8 @@
+CREATE TABLE Pagos
+(
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    nombrePagador VARCHAR(50) NOT NULL,
+    nombreBeneficiario VARCHAR(50) NOT NULL,
+    monto INTEGER NOT NULL,
+    referencia VARCHAR(15) NOT NULL
+);
